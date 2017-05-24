@@ -29,7 +29,7 @@
 
 - name: Fetch package | webgoat
   get_url:
-    url: 'https://webgoat.googlecode.com/files/WebGoat-5.4.war'
+    url: 'https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/webgoat/WebGoat-5.4.war'
     dest: /var/lib/tomcat7/webapps/webgoat.war
   notify: Restart Service | tomcat
   tags:
